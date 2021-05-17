@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<!-- logo -->
+		<div class="container-fluid">
+			<div class="vnheader">
+				<img src="img/banner-top.png" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<div class="logo">
+								<img src="img/logo.png" alt="">
+								<span>Thu 2 asdjsadjksa</span>
+							</div>
+						</div>
+						<div class="col-8">
+							<a href=""><i class="far fa-clock"></i>Mới nhất</a>
+							<a href=""><i class="fab fa-etsy"></i>International</a>
+							<div>
+								<form class="navbar-form" role="search">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search" name="q">
+										<div class="input-group-btn">
+											<button class="btn btn-info" type="submit"><i class="fas fa-search"></i></button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div>
+								<span><i class="fas fa-user"></i>Đăng nhập</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end logo -->
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- menu -->
+	<section>
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<a href="#"><i class="fas fa-home"></i></a>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Thời sự
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Chính trị</a></li>
+									<li><a class="dropdown-item" href="#">Đại hội XIII</a></li>
+									<li><a class="dropdown-item" href="#">Giao thông</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Góc nhìn</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Thế giới
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tư liệu</a></li>
+									<li><a class="dropdown-item" href="#">Phân tích</a></li>
+									<li><a class="dropdown-item" href="#">Người Việt 5 châu</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Video
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Thời sự</a></li>
+									<li><a class="dropdown-item" href="#">Nhịp sống</a></li>
+									<li><a class="dropdown-item" href="#">Sport Life</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Kinh doanh
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Quốc tế</a></li>
+									<li><a class="dropdown-item" href="#">Doanh nghiệp</a></li>
+									<li><a class="dropdown-item" href="#">Chứng khoán</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Giải trí
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Giới sao</a></li>
+									<li><a class="dropdown-item" href="#">Video</a></li>
+									<li><a class="dropdown-item" href="#">Phim</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Thể thao
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Video</a></li>
+									<li><a class="dropdown-item" href="#">Bóng đá</a></li>
+									<li><a class="dropdown-item" href="#">Lịch thi đấu</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Pháp luật
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Hồ sơ phá án</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Giáo dục
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tuyển sinh</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Tra cứu đại học</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Sức khỏe
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tin tức</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Dinh dưỡng</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Đời sống
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tổ ấm</a></li>
+									<li><a class="dropdown-item" href="#">Bài học sống</a></li>
+									<li><a class="dropdown-item" href="#">Nhà</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Du lịch
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Điểm đến</a></li>
+									<li><a class="dropdown-item" href="#">Dấu chân</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Khoa học
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Tin tức</a></li>
+									<li><a class="dropdown-item" href="#">Phát minh</a></li>
+									<li><a class="dropdown-item" href="#">Ứng dụng</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Số hóa
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Công nghệ</a></li>
+									<li><a class="dropdown-item" href="#">Diễn đàn</a></li>
+									<li><a class="dropdown-item" href="#">Sản phẩm</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Xe
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Thị trường</a></li>
+									<li><a class="dropdown-item" href="#">Tư vấn</a></li>
+									<li><a class="dropdown-item" href="#">Diễn đàn</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Ý kiến
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Đời sống</a></li>
+									<li><a class="dropdown-item" href="#">Thời sự</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Tâm sự
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Chuyên gia gỡ rối</a></li>
+									<li><a class="dropdown-item" href="#">Hẹn hò</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Hài
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="#">Cười</a></li>
+									<li><a class="dropdown-item" href="#">Đố vui</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- end menu -->
+	</section>
+
+	<!-- tin moi -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-9">
+					<div class="main-tintuc">
+						
+						<div class="img-tintuc">
+							<a href=""><img src="img/anhdemo.jpg" alt=""></a>
+						</div>
+						<a href="">
+							<h3>Thêm một bệnh nhân Covid-19 tử vong</h3>
+						</a>
+						<p>Bộ Y tế sáng 17/5 công bố "bệnh nhân 3055", nam, 34 tuổi, tử vong do viêm màng não mủ biến chứng, di chứng chấn thương sọ não, viêm phổi nặng vì nhiễm nCoV.</p>
+					</div>
+
+					<div class="sub-tintuc">
+						<div>
+							<a href="">
+								<h5>Trưa 17/5 thêm 30 ca Covid-19</h5>
+							</a>
+							<p>Bộ Y tế trưa 17/5 ghi nhận thêm 30 ca dương tính, trong đó 28 ca trong nước đều ở khu cách ly và 2 ca nhập cảnh được cách ly ngay.</p>
+						</div>
+
+						<div>
+							<a href="">
+								<h5>Điều tra việc rao bán hàng nghìn ảnh chứng minh thư trên mạng</h5>
+							</a>
+							<p>Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) đang điều tra thông tin hàng nghìn ảnh chứng minh thư bị rao bán trên mạng, giá 9.000 USD.</p>
+						</div>
+
+						<div>
+							<a href="">
+								<h5>Tên đại biểu tôi bầu</h5>
+							</a>
+							<p>Bạn có ​nhớ tên đại biểu Quốc hội mình đã bầu cho họ trong lần gần đây nhất không?</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<img src="img/banner-tin-trai.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end tin moi -->
+
+	<!-- tin cu -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div>
+						<p>Miss Universe 2020: Top5</p>
+						<img src="" alt="">anh
+					</div>
+					<div>
+						<p>Miss Universe 2020: Top5</p>
+						<img src="" alt="">anh
+					</div>
+					<div>
+						<p>Miss Universe 2020: Top5</p>
+						<img src="" alt="">anh
+					</div>
+					<div>
+						<p>Miss Universe 2020: Top5</p>
+						<img src="" alt="">anh
+					</div>
+				</div>
+
+				<div class="col-8">
+					<div>
+						<img src="" alt="">banner
+					</div>
+
+					<div>
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+							<div class="container-fluid">
+								<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+									<div class="navbar-nav">
+										<a class="nav-link active" aria-current="page" href="#">Kinh doanh</a>
+										<a class="nav-link" href="#">Quốc tế</a>
+										<a class="nav-link" href="#">Doanh nghiệp</a>
+										<a class="nav-link" href="#">Chứng khoán</a>
+										<a class="nav-link" href="#">Bất động sản</a>
+										<a class="nav-link" href="#">Startup</a>
+										<a class="nav-link" href="#">Bảo hiểm</a>
+										<a class="nav-link" href="#">Vhome</a>
+
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+
+					<div class="container-fluid">
+						<div>
+							<div class="row">
+								<div class="col-8">
+									<img src="" alt="">anh
+									<p>Elon Musk am chi tesla da ban bitcoin</p>
+									<p>sadsadsadsadsadhjsadgshdhjsahd</p>
+								</div>
+								<div class="col-4">
+									<p>Nen dung the thanh toan nao</p>
+									<p>sahdghsadhsagdhjsadgasdgsad</p>
+								</div>
+							</div>
+
+							<div>
+								<div><p>Bac ninh xay dung 11 nha du an xa hoi</p></div>
+								<div><p>Bac ninh xay dung 11 nha du an xa hoi</p></div>
+								<div><p>Bac ninh xay dung 11 nha du an xa hoi</p></div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end tin cu -->
+
+	<!-- quang cao -->
+	<section>
+		<div class="container my-4">
+
+			<hr class="mb-5"/>
+
+			<!--Carousel Wrapper-->
+			<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+				<!--Controls-->
+				<div class="controls-top">
+					<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+					<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+				</div>
+				<!--/.Controls-->
+
+				<!--Indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+					<li data-target="#multi-item-example" data-slide-to="1"></li>
+					<li data-target="#multi-item-example" data-slide-to="2"></li>
+				</ol>
+				<!--/.Indicators-->
+
+				<!--Slides-->
+				<div class="carousel-inner" role="listbox">
+
+					<!--First slide-->
+					<div class="carousel-item active">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!--/.First slide-->
+
+					<!--Second slide-->
+					<div class="carousel-item">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!--/.Second slide-->
+
+					<!--Third slide-->
+					<div class="carousel-item">
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<img class="card-img-top" src=""
+									alt="Card image cap">
+									<div class="card-body">
+										<h4 class="card-title"><a>asdsadasd</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!--/.Third slide-->
+
+				</div>
+				<!--/.Slides-->
+
+			</div>
+			<!--/.Carousel Wrapper-->
+
+
+		</div>
+	</section>
+	<!-- end thong tin dn -->
+
+	<!-- quang cao -->
+	<!-- Start Midium Banner  -->
+	<section class="midium-banner">
+		<div class="container">
+			<div class="row">
+				<!-- Single Banner  -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="single-banner">
+						<img src="https://via.placeholder.com/600x370" alt="#">
+						<div class="content">
+							<p>Man's Collectons</p>
+							<h3>Man's items <br>Up to<span> 50%</span></h3>
+							<a href="#">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<!-- /End Single Banner  -->
+				<!-- Single Banner  -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="single-banner">
+						<img src="https://via.placeholder.com/600x370" alt="#">
+						<div class="content">
+							<p>shoes women</p>
+							<h3>mid season <br> up to <span>70%</span></h3>
+							<a href="#" class="btn">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<!-- /End Single Banner  -->
+			</div>
+		</div>
+	</section>
+	<!-- End Midium Banner -->
+	<!-- end quang cao -->
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div>
+				<div class="row">
+					<div class="col-8">
+						<div class=" row">
+							<div class="col-3">
+								<ul>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+								</ul>
+							</div>
+
+							<div class="col-3">
+								<ul>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+									<li><a href="">Trang chu</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-4">
+						<p>tai ung dung</p>
+						<p>lien he</p>
+					</div>
+				</div>
+
+				<div>
+					<p>bao tieng viet nhieu nguoi xem nhat</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+
+</body>
+</html>
